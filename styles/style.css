@@ -7,4 +7,145 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom,#184f7b, #ecefec ); 
+  width: 200px;
 }
+
+.ctn{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+.body-img-phone{
+  margin-left: 300px;
+}
+.footer{
+  margin-left: 700px;
+  margin-top: -60px;
+}
+.div-body-fram{
+  height: 500px;
+
+}
+#header-button{
+  margin-right: 800px;
+  position: absolute;
+  left:1060px;
+  top:230px;
+  width: 100px;
+  color: white;
+  background-color: #154b77;
+  border-radius: 2px;
+  border: none;
+}
+
+.container-instgram{
+  position: absolute;
+  right:600px;
+  top:220px;
+  width: 200px;
+}
+.container-div{
+  background-image: url(../images/frame.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 50px 65px;
+  position: absolute;
+  left:650px;
+  top:260px;
+  width: 400px;
+  border-radius: 2px;
+}
+  .footer{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.footer-img{
+  margin-left: 20px;
+}
+
+ul {
+      display:flex ;
+      justify-content: center;      
+      margin-left: 700px;
+    }
+    ul li{
+      display: flex;
+      margin:0 10px;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 500px;
+    }
+    ul li a{
+       list-style-type: none;
+       text-decoration: none;
+    }
+
+
+@media screen and (max-width: 600px) {
+
+  body {
+    width: auto; 
+  }
+
+  .ctn {
+    display: block; 
+    text-align: center; 
+    margin-top: 100px; 
+  }
+
+  .body-img-phone {
+    display: block;
+    margin-left: 0;
+  }
+
+  .footer {
+    margin: 0; 
+    justify-content: center; 
+    margin-top: 20px; 
+  }
+
+  #header-button {
+    left: auto; 
+    margin: 0 auto; 
+    position: static; 
+  }
+
+  .container-instgram {
+    right: auto; 
+    top: auto; 
+    width: 100%; 
+  }
+
+  .container-div {
+    position: static; 
+    width: 80%; 
+    margin: 0 auto; 
+    box-shadow: none; 
+    border-radius: 0; 
+    padding: 20px; 
+  }
+
+  ul {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+    margin-left: 100px;
+  }
+
+  ul li {
+    margin: 10px 0; 
+    font-size: 16px; 
+  }
+
+  ul li a {
+    font-weight: normal; 
+  }
+}
+
+
+
+
+  
